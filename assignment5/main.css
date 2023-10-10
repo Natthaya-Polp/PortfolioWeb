@@ -1,0 +1,123 @@
+body
+{
+	color: rgb(80, 48, 46);
+	background-color: rgb(243, 210, 184);
+}
+
+h1
+{
+	color: blanchedalmond;
+	font-size: 50px;
+}
+
+h2
+{
+	font-size: 25px;
+    margin: 10px;
+}
+
+h3
+{
+	font-size: 25px;
+    margin: 10px;
+}
+
+p
+{
+	font-size: 20px;
+    margin: 10px;
+	text-align: left;
+}
+
+#text1
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+	text-align: left;
+}
+
+/* ----------------------------Desktop---------------------------- */
+
+.grid-container 
+{
+	display: grid;
+	grid-template-columns: 10% 10% 30% 30% 5% 5% 10%;
+	grid-gap: 10px;
+}
+
+#header
+{
+	grid-column: 1 / span 7;
+	text-align: center;
+	background-color: brown;
+}
+
+#leftMenu
+{
+	grid-column: 1 / span 1;
+    grid-row: 2 / span 5;
+	text-align: left;
+	border-radius: 10px;
+    background-color: rgb(255, 226, 182);
+}
+
+#topicHeader
+{
+	grid-column: 2 / span 5;
+	text-align: left;
+	border-radius: 10px;
+    background-color: blanchedalmond;
+}
+
+#comment1Header
+{
+	grid-column: 3 / span 4;
+	text-align: left;
+	border-radius: 10px;
+	background-color: blanchedalmond;
+}
+
+#comment2Header
+{
+	grid-column: 3 / span 4;
+	text-align: left;
+	border-radius: 10px;
+	background-color: blanchedalmond;
+}
+
+textarea
+{
+    grid-column: 2 / span 5;
+    border-color: brown;
+    border-width: 2px;
+    border-radius: 10px;
+	background-color: white;
+}
+
+#postBtn
+{
+    grid-column: 5 / span 1;
+    border-radius: 10px;
+    color: white;
+	background-color: brown;
+}
+
+#clearBtn
+{
+    grid-column: 6 / span 1;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: white;
+	background-color: brown;
+}
+
+#rightMenu
+{
+	grid-column: 7 / span 1;
+    grid-row: 2 / span 5;
+	text-align: left;
+	border-radius: 10px;
+    background-color: rgb(255, 226, 182);
+}

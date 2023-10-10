@@ -1,0 +1,773 @@
+body
+{
+    background-color: #fafafa;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+#homeIcon
+{
+    margin-left: 2%;
+    margin-right: auto;
+    width: 2%;
+}
+
+#topic
+{
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 15%;
+}
+
+#projectIcon
+{
+    margin-right: 2%;
+    margin-left: auto;
+    width: 2%;
+}
+
+#home
+{
+    margin: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #7f0019;
+}
+
+#game
+{
+    margin: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #7f0019;
+}
+
+#menu
+{
+    margin: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #333333;
+}
+
+#menu:hover
+{
+    text-decoration: underline;
+}
+
+h1
+{
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: 400;
+}
+
+h2
+{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+ul
+{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+li
+{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px;
+}
+
+p
+{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+hr
+{
+    text-align: center;
+    width: 20%;
+    border: 2px solid #333333;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+#maintext1
+{
+    font-size: 60px;
+    margin: 5px;
+}
+
+#stdID
+{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+#aboutMeButton
+{
+    color: #fafafa;
+    background-color: #7f0019;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+}
+
+#aboutMeButton:hover
+{
+    text-decoration: underline;
+}
+
+#skill
+{
+    background-color: #e6e5eb;
+    width: 40%;
+    margin: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#skill-container
+{
+    margin: 10px;
+}
+
+h3
+{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#hrMid
+{
+    text-align: center;
+    width: 20%;
+    border: 2px solid #7f0019;
+    border-radius: 50px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+#AssignmentBtn
+{
+    color: #fafafa;
+    background-color: #7f0019;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+#reflink
+{
+    text-decoration: none;
+    color: #333333;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#reflink:hover
+{
+    text-decoration: underline;
+    color: #7f0019;
+}
+
+#LogoFB
+{
+    width: 5%;
+    margin: 10px;
+}
+
+#LogoIG
+{
+    width: 5%;
+    margin: 10px;
+}
+
+#LogoGitHub
+{
+    width: 5%;
+    margin: 10px;
+}
+
+#contact
+{
+    text-decoration: none;
+}
+
+#telNum
+{
+    color: #7f0019;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+/* ---------------------------------Game--------------------------------- */
+
+#goosedLogo
+{
+    width: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#gameName
+{
+    color: #fafafa;
+    background-color: #7f0019;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+#introduceGame
+{
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#interface1
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#interface2
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#interface3
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#vidHead
+{
+    margin: 50px;
+    text-align: center;
+}
+
+#vid
+{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#LogoPlay
+{
+    width: 15%;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+/* ---------------------------------Responsive--------------------------------- */
+
+/* ----------------------------Desktop---------------------------- */
+.grid-container 
+{
+	display: grid;
+	grid-template-columns: 10% 35% auto 35% 10%;
+	grid-gap: 10px;
+}
+
+#header
+{
+	grid-column: 1 / span 5;
+    display: inline-block;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 30px;
+}
+
+#menuBar
+{
+	grid-column: 1 / span 5;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.main
+{
+    grid-column: 1 / span 5;
+    display: flex;
+    background-color: #edeae6;
+    text-align: center;
+}
+
+#me
+{
+    display: flex;
+    width: 63%; 
+}
+
+#mainPic
+{
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-right: auto;
+    margin-left: 5%;
+}
+
+#mainText
+{
+    margin: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: 15%;
+}
+
+#aboutMe
+{
+	grid-column: 2 / span 3;
+	text-align: center;
+	margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#skills
+{
+	grid-column: 2 / span 3;
+	text-align: center;
+	margin: 10px;
+}
+
+#skill-layout
+{
+    display: flex;
+    margin-top: 60px;
+}
+
+#hobby
+{
+	grid-column: 2 / span 1;
+	text-align: center;
+	margin: 10px;
+    margin-bottom: 70px;
+}
+
+#interest
+{
+	grid-column: 4 / span 1;
+	text-align: center;
+	margin: 10px;
+    margin-bottom: 70px;
+}
+
+.assignmentAll
+{
+    grid-column: 1 / span 5;
+    display: flex;
+    background-color: #edeae6;
+    text-align: center;
+}
+
+#assignment
+{
+    margin-top: 70px;
+    margin-bottom: 120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#ref
+{
+	grid-column: 1 / span 5;
+	text-align: center;
+    margin: 50px;
+    margin-bottom: 70px;
+}
+
+#footer
+{
+	grid-column: 1 / span 5;
+	text-align: center;
+}
+
+#gameLogo
+{
+    grid-column: 1 / span 5;
+    text-align: center;
+    background-color: #edeae6;
+    margin-bottom: 50px;
+}
+
+#inGamePics
+{
+    grid-column: 2 / span 3;
+    text-align: center;
+}
+
+#gameplayVideo
+{
+    grid-column: 1 / span 5;
+    text-align: center;
+    background-color: #edeae6;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#playGame
+{
+    grid-column: 1 / span 5;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* ----------------------------Tablet---------------------------- */
+@media only screen and (max-width: 768px) 
+{
+	.grid-container 
+    {
+    	display: grid;
+    	grid-template-columns: 5% auto auto 5%;
+    	grid-gap: 10px;
+    }
+
+    #header
+    {
+    	grid-column: 1 / span 4;
+        display: inline-block;
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 30px;
+    }
+
+    #menuBar
+    {
+    	grid-column: 1 / span 4;
+    	text-align: center;
+    	margin-bottom: 30px;
+    }
+
+    .main
+    {
+        grid-column: 1 / span 4;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: #edeae6;
+        text-align: center;
+    }
+
+    #me
+    {
+        display: flex;
+        width: 95%; 
+    }
+
+    #mainPic
+    {
+        margin: 10%;
+    }
+
+    #mainText
+    {
+        margin: 50px;
+    }
+
+    #aboutMe
+    {
+    	grid-column: 2 / span 2;
+    	text-align: center;
+    	margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #skills
+    {
+    	grid-column: 2 / span 2;
+    	text-align: center;
+    	margin: 10px;
+    }
+
+    #skill-layout
+    {
+        display: inline-flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+
+    #hobby
+    {
+    	grid-column: 2 / span 1;
+    	text-align: center;
+    	margin: 10px;
+        margin-bottom: 70px;
+    }
+
+    #interest
+    {
+    	grid-column: 3 / span 1;
+    	text-align: center;
+    	margin: 10px;
+        margin-bottom: 70px;
+    }
+
+    .assignmentAll
+    {
+        grid-column: 1 / span 4;
+        background-color: #edeae6;
+        text-align: center;
+    }
+
+    #assignment
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 70px;
+        margin-bottom: 120px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #ref
+    {
+    	grid-column: 1 / span 4;
+    	text-align: center;
+        margin: 50px;
+        margin-bottom: 70px;
+    }
+
+    #footer
+    {
+    	grid-column: 1 / span 4;
+    	text-align: center;
+    }
+
+    #gameLogo
+    {
+        grid-column: 1 / span 4;
+        text-align: center;
+        background-color: #edeae6;
+        margin-bottom: 50px;
+    }
+
+    #inGamePics
+    {
+        grid-column: 2 / span 2;
+        text-align: center;
+    }
+
+    #gameplayVideo
+    {
+        grid-column: 1 / span 4;
+        text-align: center;
+        background-color: #edeae6;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    #playGame
+    {
+        grid-column: 2 / span 2;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+}
+
+/* ----------------------------Phone---------------------------- */
+@media only screen and (max-width: 500px) 
+{
+	.grid-container 
+    {
+    	display: grid;
+    	grid-template-columns: 2% auto 2%;
+    	grid-gap: 10px;
+    }
+
+    #header
+    {
+    	grid-column: 1 / span 3;
+        display: inline-block;
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 30px;
+    }
+
+    #menuBar
+    {
+    	grid-column: 1 / span 3;
+    	text-align: center;
+    	margin-bottom: 30px;
+    }
+
+    .main
+    {
+        grid-column: 1 / span 3;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: #edeae6;
+        text-align: center;
+    }
+
+    #me
+    {
+        display: flex;
+        width: 95%; 
+    }
+
+    #mainPic
+    {
+        margin: 10%;
+    }
+
+    #mainText
+    {
+        margin: 50px;
+    }
+
+    #aboutMe
+    {
+    	grid-column: 2 / span 1;
+    	text-align: center;
+    	margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #skills
+    {
+    	grid-column: 2 / span 1;
+    	text-align: center;
+    	margin: 10px;
+    }
+
+    #skill-layout
+    {
+        display: inline-flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+
+    #hobby
+    {
+    	grid-column: 2 / span 1;
+    	text-align: center;
+    	margin: 10px;
+        margin-bottom: 70px;
+    }
+
+    #interest
+    {
+    	grid-column: 2 / span 1;
+    	text-align: center;
+    	margin: 10px;
+        margin-bottom: 70px;
+    }
+
+    .assignmentAll
+    {
+        grid-column: 1 / span 3;
+        background-color: #edeae6;
+        text-align: center;
+    }
+
+    #assignment
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 70px;
+        margin-bottom: 120px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #ref
+    {
+    	grid-column: 1 / span 3;
+    	text-align: center;
+        margin: 50px;
+        margin-bottom: 70px;
+    }
+
+    #footer
+    {
+    	grid-column: 1 / span 3;
+    	text-align: center;
+    }
+
+    #gameLogo
+    {
+        grid-column: 1 / span 3;
+        text-align: center;
+        background-color: #edeae6;
+        margin-bottom: 50px;
+    }
+
+    #inGamePics
+    {
+        grid-column: 2 / span 1;
+        text-align: center;
+    }
+
+    #gameplayVideo
+    {
+        grid-column: 1 / span 3;
+        text-align: center;
+        background-color: #edeae6;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    #playGame
+    {
+        grid-column: 2 / span 1;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+}

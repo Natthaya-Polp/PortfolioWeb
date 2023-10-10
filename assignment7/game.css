@@ -1,0 +1,72 @@
+body
+{
+    background-color: slategray;
+}
+
+fieldset
+{
+    text-align: center;
+    color: aliceblue;
+    margin: 35px;
+}
+
+#start
+{
+    border-radius: 5px;
+}
+
+#color
+{
+    border-radius: 5px;
+}
+
+#timerClock
+{
+    margin-top: 20px;
+}
+
+#clock
+{
+    font-size: 40px;
+}
+
+#container 
+{
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#layer 
+{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    
+    background-color: ghostwhite;
+    border-radius: 5px;
+}
+
+.square 
+{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.salmon
+{
+    background-color: salmon; 
+}
+
+.seagreen
+{
+    background-color: seagreen; 
+}
+
+.sandybrown
+{
+    background-color: sandybrown; 
+}
